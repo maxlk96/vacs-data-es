@@ -238,6 +238,10 @@ controlled_by = [
 ]
 
 [[stations]]
+id = "LOVV_I_CTR"
+controlled_by = ["LOVV_I_CTR"]
+
+[[stations]]
 id = "LOWG_APP"
 controlled_by = [
     "LOWG_APP",
@@ -406,6 +410,10 @@ controlled_by = ["LOWW_F_APP", "LOWW_D_APP"]
 [[stations]]
 id = "LOWW_D_APP"
 controlled_by = ["LOWW_D_APP", "LOWW_F_APP"]
+
+[[stations]]
+id = "LOWW_I_APP"
+controlled_by = ["LOWW_I_APP", "LOVV_I_CTR"]
 
 [[stations]]
 id = "LOXT_APP"

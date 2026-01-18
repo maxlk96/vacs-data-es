@@ -206,36 +206,49 @@ id = "LOWW_APP"
 prefixes = ["LOWW"]
 frequency = "134.675"
 facility_type = "APP"
+profile_id = "LOWW"
 
 [[positions]]
 id = "LOWW_D_APP"
 prefixes = ["LOWW"]
 frequency = "134.125"
 facility_type = "APP"
+profile_id = "LOWW"
 
 [[positions]]
 id = "LOWW_F_APP"
 prefixes = ["LOWW"]
 frequency = "119.800"
 facility_type = "APP"
+profile_id = "LOWW"
 
 [[positions]]
 id = "LOWW_M_APP"
 prefixes = ["LOWW"]
 frequency = "125.175"
 facility_type = "APP"
+profile_id = "LOWW"
 
 [[positions]]
 id = "LOWW_N_APP"
 prefixes = ["LOWW"]
 frequency = "118.775"
 facility_type = "APP"
+profile_id = "LOWW"
 
 [[positions]]
 id = "LOWW_P_APP"
 prefixes = ["LOWW"]
 frequency = "129.050"
 facility_type = "APP"
+profile_id = "LOWW"
+
+[[positions]]
+id = "LOWW_I_APP"
+prefixes = ["LOWW"]
+frequency = "118.525"
+facility_type = "APP"
+profile_id = "LOWW"
 
 [[positions]]
 id = "LOXT_APP"
@@ -305,12 +318,14 @@ id = "LOWW_E_TWR"
 prefixes = ["LOWW"]
 frequency = "123.800"
 facility_type = "TWR"
+profile_id = "LOWW"
 
 [[positions]]
 id = "LOWW_TWR"
 prefixes = ["LOWW"]
 frequency = "119.400"
 facility_type = "TWR"
+profile_id = "LOWW"
 
 [[positions]]
 id = "LOXT_TWR"
@@ -331,18 +346,21 @@ id = "LOWW_I_GND"
 prefixes = ["LOWW"]
 frequency = "121.680"
 facility_type = "GND"
+profile_id = "LOWW"
 
 [[positions]]
 id = "LOWW_W_GND"
 prefixes = ["LOWW"]
 frequency = "121.775"
 facility_type = "GND"
+profile_id = "LOWW"
 
 [[positions]]
 id = "LOWW_GND"
 prefixes = ["LOWW"]
 frequency = "121.600"
 facility_type = "GND"
+profile_id = "LOWW"
 
 [[positions]]
 id = "LOWI_DEL"
@@ -363,3 +381,4 @@ id = "LOWW_DEL"
 prefixes = ["LOWW"]
 frequency = "122.125"
 facility_type = "DEL"
+profile_id = "LOWW"
