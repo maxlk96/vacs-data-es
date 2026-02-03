@@ -51,8 +51,9 @@ jobs:
       - name: cargo deny
         uses: EmbarkStudios/cargo-deny-action@v2.0.15
         with:
-          arguments: --all-features
+          manifest-path: "tools/Cargo.toml"
           command: check ${{ matrix.checks }}
+          command-arguments: "--config tools/deny.toml"
 
   cargo-machete:
     runs-on: ubuntu-latest

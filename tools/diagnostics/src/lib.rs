@@ -8,7 +8,7 @@ pub enum LogFormat {
 }
 
 impl LogFormat {
-    #[must_use] 
+    #[must_use]
     pub const fn as_str(&self) -> &'static str {
         match self {
             LogFormat::Human => "human",
@@ -16,7 +16,7 @@ impl LogFormat {
         }
     }
 
-    #[must_use] 
+    #[must_use]
     pub const fn variants() -> &'static [&'static str] {
         &["human", "github"]
     }
@@ -47,12 +47,12 @@ pub struct Logger {
 }
 
 impl Logger {
-    #[must_use] 
+    #[must_use]
     pub fn new(format: LogFormat) -> Self {
         Self { format }
     }
 
-    #[must_use] 
+    #[must_use]
     pub fn is_human(&self) -> bool {
         self.format == LogFormat::Human
     }
@@ -145,7 +145,7 @@ pub mod log {
         logger().error_with_context(context, message);
     }
 
-    #[must_use] 
+    #[must_use]
     pub fn is_human() -> bool {
         logger().is_human()
     }
