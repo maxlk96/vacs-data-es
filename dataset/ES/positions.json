@@ -19,35 +19,35 @@
       "prefixes": ["ESCF"],
       "frequency": "135.850",
       "facility_type": "APP",
-      "profile_id": "OKC"
+      "profile_id": "ESSP"
     },
     {
       "id": "ESCF_F_APP",
       "prefixes": ["ESCF"],
       "frequency": "126.400",
       "facility_type": "APP",
-      "profile_id": "OKC"
+      "profile_id": "ESSP"
     },
     {
       "id": "ESCF_GND",
       "prefixes": ["ESCF"],
       "frequency": "121.850",
       "facility_type": "GND",
-      "profile_id": "OKC"
+      "profile_id": "ESSP"
     },
     {
       "id": "ESCF_P_APP",
       "prefixes": ["ESCF"],
       "frequency": "125.200",
       "facility_type": "APP",
-      "profile_id": "OKC"
+      "profile_id": "ESSP"
     },
     {
       "id": "ESCF_TWR",
       "prefixes": ["ESCF"],
       "frequency": "129.800",
       "facility_type": "TWR",
-      "profile_id": "OKC"
+      "profile_id": "ESSP"
     },
     {
       "id": "ESCM_APP",
@@ -229,7 +229,7 @@
       "prefixes": ["ESKN"],
       "frequency": "127.705",
       "facility_type": "TWR",
-      "profile_id": "OKC"
+      "profile_id": "ESSP"
     },
     {
       "id": "ESKS_TWR",
@@ -810,21 +810,21 @@
       "prefixes": ["ESSL"],
       "frequency": "118.805",
       "facility_type": "TWR",
-      "profile_id": "OKC"
+      "profile_id": "ESSP"
     },
     {
       "id": "ESSP_APP",
       "prefixes": ["ESSP"],
       "frequency": "132.955",
       "facility_type": "APP",
-      "profile_id": "OKC"
+      "profile_id": "ESSP"
     },
     {
       "id": "ESSP_TWR",
       "prefixes": ["ESSP"],
       "frequency": "120.355",
       "facility_type": "TWR",
-      "profile_id": "OKC"
+      "profile_id": "ESSP"
     },
     {
       "id": "ESSR_CTR",
