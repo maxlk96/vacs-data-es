@@ -147,7 +147,8 @@
     },
     {
       "id": "ESGG DEL",
-      "controlled_by": ["ESGG_DEL"]
+      "controlled_by": ["ESGG_DEL"],
+      "parent_id": "ESGG GND"
     },
     {
       "id": "ESGG APP-E",
