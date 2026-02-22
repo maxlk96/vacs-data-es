@@ -46,7 +46,7 @@
         "ESOS_3_CTR",
         "ESAA_CTR"
       ],
-      "parent_id": "ESOS_9_CTR"
+      "parent_id": "ESOS 9"
     },
     {
       "id": "ESCM TWR",
@@ -60,12 +60,12 @@
     {
       "id": "ESDF APP",
       "controlled_by": ["ESDF_APP", "ESDF_TWR", "ESSR_CTR"],
-      "parent_id": "ESOS_9_CTR"
+      "parent_id": "ESOS 9"
     },
     {
       "id": "ESDF GND",
       "controlled_by": ["ESDF_GND", "ESDF_TWR", "ESDF_APP", "ESSR_CTR"],
-      "parent_id": "ESOS_9_CTR"
+      "parent_id": "ESOS 9"
     },
     {
       "id": "ESDF PAR",
@@ -74,7 +74,7 @@
     {
       "id": "ESDF TWR",
       "controlled_by": ["ESDF_TWR", "ESDF_APP", "ESSR_CTR"],
-      "parent_id": "ESOS_9_CTR"
+      "parent_id": "ESOS 9"
     },
     {
       "id": "ESDK",
@@ -95,7 +95,7 @@
     {
       "id": "ESGG DEL",
       "controlled_by": ["ESGG_DEL"],
-      "parent_id": "ESGG_GND"
+      "parent_id": "ESGG GND"
     },
     {
       "id": "ESGG APP-E",
