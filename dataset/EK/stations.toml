@@ -60,9 +60,7 @@ controlled_by = [
 
 [[stations]]
 id = "EKCHAPPCO"
-controlled_by = [
-  "EKCH_P_APP"
-]
+controlled_by = ["EKCH_P_APP"]
 
 [[stations]]
 id = "EKCHAPPE"
@@ -238,9 +236,7 @@ controlled_by = ["EKCH_DEL"]
 
 [[stations]]
 id = "EKDKFMP"
-controlled_by = [
-  "EKDK_FMP"
-]
+controlled_by = ["EKDK_FMP"]
 
 [[stations]]
 id = "EKDKA"
