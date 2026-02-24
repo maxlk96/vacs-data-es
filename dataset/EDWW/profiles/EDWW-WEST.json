@@ -179,7 +179,11 @@
             "label": ["EDYY", "DELTA"]
           },
           {
-            "label": ["TRAMON", "SUNRISE", "LONESHIP"],
+            "label": [
+              "TRAMON",
+              "SUNRISE",
+              "LONESHIP"
+            ],
             "page": {
               "rows": 6,
               "keys": [
@@ -252,7 +256,7 @@
                 },
                 {
                   "label": ["ETMN", "TWR"],
-                  "station_id": "ETMNS-TWR"
+                  "station_id": "ETMN-TWR"
                 },
                 {
                   "label": ["ETMN", "APP"],
@@ -369,7 +373,8 @@
                   "station_id": "EDMM-FMP"
                 },
                 {
-                  "label": ["EKDK", "FMP"]
+                  "label": ["EKDK", "FMP"],
+                  "station_id": "EKDKFMP"
                 },
                 {
                   "label": ["ESAA", "FMP"],
@@ -399,34 +404,43 @@
               "rows": 6,
               "keys": [
                 {
-                  "label": ["EKDK", "A", "+365"]
+                  "label": ["EKDK", "A", "+365"],
+                  "station_id": "EKDKUA"
                 },
                 {
-                  "label": ["EKDK", "A", "-365"]
+                  "label": ["EKDK", "A", "-365"],
+                  "station_id": "EKDKA"
                 },
                 {
-                  "label": ["EKDK", "B", "-285"]
+                  "label": ["EKDK", "B", "-285"],
+                  "station_id": "EKDKB"
                 },
                 {
-                  "label": ["EKDK", "I", "-285"]
+                  "label": ["EKDK", "I", "-285"],
+                  "station_id": "EKDKI"
                 },
                 {
-                  "label": ["EKDK", "D", "-285"]
+                  "label": ["EKDK", "D", "-285"],
+                  "station_id": "EKDKD"
                 },
                 {
                   "label": []
                 },
                 {
-                  "label": ["EKDK", "C", "+365"]
+                  "label": ["EKDK", "C", "+365"],
+                  "station_id": "EKDKUC"
                 },
                 {
-                  "label": ["EKDK", "C", "-365"]
+                  "label": ["EKDK", "C", "-365"],
+                  "station_id": "EKDKC"
                 },
                 {
-                  "label": ["EKDK", "N", "+365"]
+                  "label": ["EKDK", "N", "+365"],
+                  "station_id": "EKDKN"
                 },
                 {
-                  "label": ["EKDK", "N", "-365"]
+                  "label": ["EKDK", "N", "-365"],
+                  "station_id": "EKDKN"
                 }
               ]
             }

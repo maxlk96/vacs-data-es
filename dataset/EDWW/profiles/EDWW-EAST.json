@@ -136,7 +136,8 @@
             "station_id": "ESMM L"
           },
           {
-            "label": ["EKDK", "B", "-285"]
+            "label": ["EKDK", "B", "-285"],
+            "station_id": "EKDKB"
           },
           {
             "label": ["MM", "HAL"],
@@ -206,7 +207,8 @@
             "station_id": "ESMM 8"
           },
           {
-            "label": ["EKDK", "A", "285-365"]
+            "label": ["EKDK", "A", "285-365"],
+            "station_id": "EKDKA"
           },
           {
             "label": ["MM", "GER"],
@@ -240,13 +242,16 @@
                   "label": ["FIS", "SW"]
                 },
                 {
-                  "label": ["EPGD", "FIS"]
+                  "label": ["EPGD", "FIS"],
+                  "station_id": "EPGD_FIS"
                 },
                 {
-                  "label": ["EPPO", "FIS"]
+                  "label": ["EPPO", "FIS"],
+                  "station_id": "EPPO_FIS"
                 },
                 {
-                  "label": ["ESMM", "FIS"]
+                  "label": ["ESMM", "FIS"],
+                  "station_id": "ESMM IS"
                 }
               ]
             }
@@ -272,7 +277,8 @@
             "station_id": "ESMM 9"
           },
           {
-            "label": ["EKDK", "A", "+365"]
+            "label": ["EKDK", "A", "+365"],
+            "station_id": "EKDKUA"
           },
           {
             "label": ["MM", "MEI"],
@@ -283,7 +289,11 @@
             "station_id": "EPSC_TMA"
           },
           {
-            "label": ["TRAMON", "SUNRISE", "LONESHIP"],
+            "label": [
+              "TRAMON",
+              "SUNRISE",
+              "LONESHIP"
+            ],
             "page": {
               "rows": 6,
               "keys": [
@@ -315,7 +325,8 @@
                   "station_id": "EDMM-FMP"
                 },
                 {
-                  "label": ["EKDK", "FMP"]
+                  "label": ["EKDK", "FMP"],
+                  "station_id": "EKDKFMP"
                 },
                 {
                   "label": ["ESMM", "FMP"],

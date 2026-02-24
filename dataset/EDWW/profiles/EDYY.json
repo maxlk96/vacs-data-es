@@ -3,7 +3,7 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "PRIM",
+      "label": ["PRIM"],
       "page": {
         "rows": 6,
         "keys": [
@@ -121,22 +121,28 @@
               "rows": 6,
               "keys": [
                 {
-                  "label": ["EKDK", "A", "+365"]
+                  "label": ["EKDK", "A", "+365"],
+                  "station_id": "EKDKUA"
                 },
                 {
-                  "label": ["EKDK", "A", "-365"]
+                  "label": ["EKDK", "A", "-365"],
+                  "station_id": "EKDKA"
                 },
                 {
-                  "label": ["EKDK", "C", "+365"]
+                  "label": ["EKDK", "C", "+365"],
+                  "station_id": "EKDKUC"
                 },
                 {
-                  "label": ["EKDK", "C", "-365"]
+                  "label": ["EKDK", "C", "-365"],
+                  "station_id": "EKDKC"
                 },
                 {
-                  "label": ["EKDK", "N", "-365"]
+                  "label": ["EKDK", "N", "-365"],
+                  "station_id": "EKDKN"
                 },
                 {
-                  "label": ["EKDK", "N", "+365"]
+                  "label": ["EKDK", "N", "+365"],
+                  "station_id": "EKDKN"
                 }
               ]
             }
@@ -147,16 +153,20 @@
               "rows": 6,
               "keys": [
                 {
-                  "label": ["EKDK", "B", "-285"]
+                  "label": ["EKDK", "B", "-285"],
+                  "station_id": "EKDKB"
                 },
                 {
-                  "label": ["EKDK", "I", "-285"]
+                  "label": ["EKDK", "I", "-285"],
+                  "station_id": "EKDKI"
                 },
                 {
-                  "label": ["EKDK", "D", "-285"]
+                  "label": ["EKDK", "D", "-285"],
+                  "station_id": "EKDKD"
                 },
                 {
-                  "label": ["EKDK", "N", "-365"]
+                  "label": ["EKDK", "N", "-365"],
+                  "station_id": "EKDKN"
                 }
               ]
             }
@@ -204,7 +214,11 @@
             "station_id": "EDGG-GED"
           },
           {
-            "label": ["TRAMON", "LONESHIP", "SUNRISE"],
+            "label": [
+              "TRAMON",
+              "LONESHIP",
+              "SUNRISE"
+            ],
             "page": {
               "rows": 6,
               "keys": [
@@ -252,16 +266,20 @@
                   "label": ["EDGG", "FMP"]
                 },
                 {
-                  "label": ["EDMM", "FMP"]
+                  "label": ["EDMM", "FMP"],
+                  "station_id": "EDMM-FMP"
                 },
                 {
-                  "label": ["EKDK", "FMP"]
+                  "label": ["EKDK", "FMP"],
+                  "station_id": "EKDKFMP"
                 },
                 {
-                  "label": ["ESAA", "FMP"]
+                  "label": ["ESAA", "FMP"],
+                  "station_id": "ESAA FMP"
                 },
                 {
-                  "label": ["EPWW", "FMP"]
+                  "label": ["EPWW", "FMP"],
+                  "station_id": "EPWW_FMP"
                 },
                 {
                   "label": ["EHAA", "FMP"]

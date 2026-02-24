@@ -180,39 +180,39 @@
               "keys": [
                 {
                   "label": ["ETHB", "TWR"],
-                  "station_id": "ETHB_TWR"
+                  "station_id": "ETHB-TWR"
                 },
                 {
                   "label": ["ETHB", "APP"],
-                  "station_id": "ETHB_APP"
+                  "station_id": "ETHB-APP"
                 },
                 {
                   "label": ["ETHC", "TWR"],
-                  "station_id": "ETHC_TWR"
+                  "station_id": "ETHC-TWR"
                 },
                 {
                   "label": ["ETHC", "APP"],
-                  "station_id": "ETHC_APP"
+                  "station_id": "ETHC-APP"
                 },
                 {
                   "label": ["ETHS", "TWR"],
-                  "station_id": "ETHS_TWR"
+                  "station_id": "ETHS-TWR"
                 },
                 {
                   "label": ["ETHS", "APP"],
-                  "station_id": "ETHS_APP"
+                  "station_id": "ETHS-APP"
                 },
                 {
                   "label": ["ETNW", "TWR"],
-                  "station_id": "ETNW_TWR"
+                  "station_id": "ETNW-TWR"
                 },
                 {
                   "label": ["ETNW", "APP"],
-                  "station_id": "ETNW_APP"
+                  "station_id": "ETNW-APP"
                 },
                 {
                   "label": ["ETND", "TWR"],
-                  "station_id": "ETND_TWR"
+                  "station_id": "ETND-TWR"
                 }
               ]
             }
@@ -236,7 +236,11 @@
             "label": [""]
           },
           {
-            "label": ["TRAMON", "SUNRISE", "LONESHIP"],
+            "label": [
+              "TRAMON",
+              "SUNRISE",
+              "LONESHIP"
+            ],
             "page": {
               "rows": 6,
               "keys": [
@@ -310,7 +314,8 @@
                   "station_id": "EDMM-FMP"
                 },
                 {
-                  "label": ["EKDK", "FMP"]
+                  "label": ["EKDK", "FMP"],
+                  "station_id": "EKDKFMP"
                 },
                 {
                   "label": ["ESMM", "FMP"],
