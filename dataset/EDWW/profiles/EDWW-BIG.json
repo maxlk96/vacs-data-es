@@ -137,15 +137,15 @@
                 },
                 {
                   "label": ["DB", "GND", "N"],
-                  "station_id": "EDDG-GND_N"
+                  "station_id": "EDDB-GND_N"
                 },
                 {
                   "label": ["DB", "GND", "S"],
-                  "station_id": "EDDG-GND_S"
+                  "station_id": "EDDB-GND_S"
                 },
                 {
                   "label": ["DB", "APN", "N"],
-                  "station_id": "EDDB_GND_E"
+                  "station_id": "EDDB-GND_E"
                 },
                 {
                   "label": ["DB", "APN", "S"],
@@ -368,34 +368,43 @@
               "rows": 6,
               "keys": [
                 {
-                  "label": ["EKDK", "A", "+365"]
+                  "label": ["EKDK", "A", "+365"],
+                  "station_id": "EKDKUA"
                 },
                 {
-                  "label": ["EKDK", "A", "-365"]
+                  "label": ["EKDK", "A", "-365"],
+                  "station_id": "EKDKA"
                 },
                 {
-                  "label": ["EKDK", "B", "-285"]
+                  "label": ["EKDK", "B", "-285"],
+                  "station_id": "EKDKB"
                 },
                 {
-                  "label": ["EKDK", "I", "-285"]
+                  "label": ["EKDK", "I", "-285"],
+                  "station_id": "EKDKI"
                 },
                 {
-                  "label": ["EKDK", "D", "-285"]
+                  "label": ["EKDK", "D", "-285"],
+                  "station_id": "EKDKD"
                 },
                 {
                   "label": []
                 },
                 {
-                  "label": ["EKDK", "C", "+365"]
+                  "label": ["EKDK", "C", "+365"],
+                  "station_id": "EKDKUC"
                 },
                 {
-                  "label": ["EKDK", "C", "-365"]
+                  "label": ["EKDK", "C", "-365"],
+                  "station_id": "EKDKC"
                 },
                 {
-                  "label": ["EKDK", "N", "+365"]
+                  "label": ["EKDK", "N", "+365"],
+                  "station_id": "EKDKN"
                 },
                 {
-                  "label": ["EKDK", "N", "-365"]
+                  "label": ["EKDK", "N", "-365"],
+                  "station_id": "EKDKN"
                 }
               ]
             }
@@ -475,7 +484,7 @@
               "keys": [
                 {
                   "label": ["AY", "INFO"],
-                  "station_id": "EDAY-INFO"
+                  "station_id": "EDAY-AFIS"
                 },
                 {
                   "label": ["AZ", "INFO"],
@@ -527,15 +536,15 @@
               "keys": [
                 {
                   "label": ["ESMM", "L", "-285"],
-                  "station_id": "ESMS_APP"
+                  "station_id": "ESMM L"
                 },
                 {
                   "label": ["ESMM", "8", "285-365"],
-                  "station_id": "ESMM_8_CTR"
+                  "station_id": "ESMM 8"
                 },
                 {
                   "label": ["ESMM", "9", "+365"],
-                  "station_id": "ESMM_9_CTR"
+                  "station_id": "ESMM 9"
                 }
               ]
             }
@@ -596,13 +605,16 @@
                   "label": ["FIS", "SW"]
                 },
                 {
-                  "label": ["EPGD", "FIS"]
+                  "label": ["EPGD", "FIS"],
+                  "station_id": "EPGD_FIS"
                 },
                 {
-                  "label": ["EPPO", "FIS"]
+                  "label": ["EPPO", "FIS"],
+                  "station_id": "EPPO_FIS"
                 },
                 {
-                  "label": ["ESMM", "FIS"]
+                  "label": ["ESMM", "FIS"],
+                  "station_id": "ESMM IS"
                 }
               ]
             }
@@ -623,7 +635,8 @@
                   "station_id": "EDMM-FMP"
                 },
                 {
-                  "label": ["EKDK", "FMP"]
+                  "label": ["EKDK", "FMP"],
+                  "station_id": "EKDKFMP"
                 },
                 {
                   "label": ["ESAA", "FMP"],

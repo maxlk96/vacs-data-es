@@ -3,7 +3,7 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "PRIM",
+      "label": ["PRIM"],
       "page": {
         "rows": 6,
         "keys": [
@@ -24,7 +24,8 @@
             "station_id": "EDHI-TWR"
           },
           {
-            "label": ["EKDK", "I"]
+            "label": ["EKDK", "I"],
+            "station_id": "EKDKI"
           },
           {
             "label": ["ETMN", "APP"],
@@ -47,7 +48,8 @@
             "station_id": "EDHL-TWR"
           },
           {
-            "label": ["EKDK", "B"]
+            "label": ["EKDK", "B"],
+            "station_id": "EKDKB"
           },
           {
             "label": ["ETNH", "APP"],

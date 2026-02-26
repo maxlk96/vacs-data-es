@@ -20,7 +20,8 @@
             "station_id": "EDWW-DBANT"
           },
           {
-            "label": ["MM", "TRN"]
+            "label": ["MM", "TRN"],
+            "station_id": "EDMM-TRN"
           },
           {
             "label": ["EPWW", "B"],
@@ -43,7 +44,8 @@
             "station_id": "EDWW-DBAST"
           },
           {
-            "label": ["MM", "SAS"]
+            "label": ["MM", "SAS"],
+            "station_id": "EDMM-SAS"
           },
           {
             "label": ["EPWW", "D"],
